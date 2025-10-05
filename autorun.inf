@@ -1,0 +1,138 @@
+[autorun]
+OPEN=autorun.exe
+ICON=autorun.exe
+
+;界面设置
+[UI]
+AreaCode=5
+BtnNum=11
+DataPath=_autorun\
+WebLink=http://www.strategyfirst.com
+ObjectKey=SOFTWARE\Object Software (Beijing) Co., Ltd.
+DATypeValue=DA565555
+SlvValue=SLV
+RegFailedMsg=Error: Your account maybe doesn't have permission to install this program !
+DiskMsg=请放入傲世三国安装光盘 ( Disk 1 ) 。
+Disk=1
+UILanguage=AUTO
+
+;Install 必须是 第 0 个
+[Btn0]
+X=405
+Y=30
+Width=210
+Height=24
+LabelIndex=1
+State=DISABLE
+Reg=SOFTWARE\Object Software (Beijing) Co., Ltd.\Fate of the Dragon Expansion\1.00.000
+Action=RUNAPP
+Target=setup.exe
+
+
+;Uninstall 必须是 第 1 个
+[Btn1]
+X=405
+Y=70
+Width=210
+Height=24
+LabelIndex=2
+State=NORMAL
+Reg=SOFTWARE\Object Software (Beijing) Co., Ltd.\Fate of the Dragon Expansion\1.00.000
+Action=RUNAPP
+;Target=SOFTWARE\Object Software (Beijing) Co., Ltd.\Fate of the Dragon Expansion\1.00.000\Unins
+Target=setup.exe
+Param=-uninst
+
+;Play 必须是 第 2 个
+[Btn2]
+X=405
+Y=110
+Width=210
+Height=24
+LabelIndex=3
+State=NORMAL
+Reg=SOFTWARE\Object Software (Beijing) Co., Ltd.\Fate of the Dragon Expansion\1.00.000
+Action=RUNAPP_REG
+Target=SOFTWARE\Object Software (Beijing) Co., Ltd.\Fate of the Dragon Expansion\1.00.000\Exec
+
+;Reinstall 必须是 第 3 个
+[Btn3]
+X=405
+Y=150
+Width=210
+Height=24
+LabelIndex=4
+State=NORMAL
+Reg=SOFTWARE\Object Software (Beijing) Co., Ltd.\Fate of the Dragon Expansion\1.00.000
+Action=RUNAPP
+Target=setup.exe
+
+;Install indeo 必须是 第 4 个
+[Btn4]
+X=405
+Y=190
+Width=210
+Height=24
+LabelIndex=5
+Action=RUNAPP
+Target=indeo\setup.exe
+
+;Analyzor  必须是 第 5 个
+[Btn5]
+X=405
+Y=230
+Width=210
+Height=24
+LabelIndex=7
+Action=RUNAPP
+Target=_Autorun\ANALYZER.EXE
+
+;Readme  必须是 第 6 个
+[Btn6]
+X=405
+Y=270
+Width=210
+Height=24
+LabelIndex=6
+Action=RUNAPP
+Target=readme.txt
+
+;DX8
+[Btn7]
+X=405
+Y=310
+Width=210
+Height=24
+LabelIndex=8
+Action=RUNAPP
+Target=dx8\DXSETUP.EXE
+
+;intro video
+[Btn8]
+X=405
+Y=350
+Width=210
+Height=24
+LabelIndex=10
+Action=RUNAPP
+Target=Video\English\StrategyFirst.avi
+
+;mail
+[Btn9]
+X=405
+Y=390
+Width=210
+Height=24
+LabelIndex=9
+Action=URL
+Target=mailto:Help@object.com.cn
+
+;exit
+[Btn10]
+X=405
+Y=430
+Width=210
+Height=24
+LabelIndex=11
+Action=EXIT
+Target=

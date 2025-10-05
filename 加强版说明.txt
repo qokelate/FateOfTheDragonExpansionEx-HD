@@ -1,0 +1,49 @@
+
+《傲世三国之三分天下 威力加强版》
+
+0. 启动RegSetup.exe修复注册表
+
+1. 启动adsanguo.exe是原版
+2. 启动adsanguoHD.exe是高清原版
+
+3. 启动adsanguo1.exe是修改版
+3. 启动adsanguoHD1.exe是高清修改版
+
+
+修改版改动的数据:
+ 1. 自动回复生命1(每2秒) 3==>8(lv9防御武将具有)
+ 1. 自动回复生命2(每2秒) 4==>8(lv9防御武将具有)
+ 2. 自动回复法力(每2秒) 4==>8
+ 3. 升级时最大生命公式 ==> X=lv1最大生命+(4*lv+lv)*16+112 (原公式为X=lv1最大生命+(4*lv+lv)*16-80)
+ 4. 受到的伤害为原伤害70%(减伤30%)
+ 5. 最大农民上限(人口上限) 70==>112
+ 5. 每民居人口数 8==>12
+ 5. 生肉/主食/酒水产量增倍
+ 6. 每月额外增加金币30元
+ 特别说明!! 以上修改全体生效(敌方我方均有效)!!
+
+
+游戏秘籍:
+ {dayandnight_ex} 黑白夜交替
+ {fps} 显示刷新率
+ {hlylevelup} 翰林院升级
+ {ineedclear} 清除所有在视口内的敌人
+ {ineedhelpme} 电脑控制玩家
+ {ineedopenallstory} 打开所有剧情关
+ {ineedopenfog} 取消战雾
+ {Ineedsuperpower} 所有资源最大化,武将一起全升到9级.
+ {ineedwin} 过关
+ {ineedwine} 增加1000单位酒
+ {ineedrice} 增加1000单位谷物
+ {ineedwine} 增加1000单位酒水
+ {ineedwood} 增加1000单位木头
+ {ineediron} 增加1000单位镔铁
+ {ineedmeat} 增加1000单位生肉
+ {ineedfood} 增加1000单位食物
+ {ineedall} 所有城市资源增加50000单位
+ {levelmax} 将士或士兵升级到最高等级
+ {levelup} 武士或士兵提升一个等级
+ {speed_ex} 加速
+ {superman_ex} 选中的人无敌（建筑物也可）
+ {ver} 获得版本号
+

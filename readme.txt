@@ -1,49 +1,89 @@
-Dragon Throne - Battle of Red Cliffs
+IPXWrapper README
+=================
 
-Introduction:
+Introduction
+------------
 
-Welcome to the Dragon Throne - Battle of Red Cliffs
+IPXWrapper allows using software that needs IPX/SPX support on recent versions
+of Windows which no longer support it.
 
-This readme provides additional gameplay and technical support information.
+Quick start
+-----------
 
-System Requirements:
+Copy the four included DLL files to the directory containing the program that
+needs it and run dplay-setup.exe (only required for DirectPlay games).
 
-* Windows 95/98/ME/2000
-* DirextX 8.0  installed
-* 240 MB of Hard Drive Space
-* PII-266 or greater processor
-* 64MB RAM
-* 8MB SVGA card completely DirextX 8.0 compatible
+Choosing network interfaces
+---------------------------
 
-Reccomended System:
-* 300 MB of Hard Drive Space
-* PIII-800 or greater processor
-* 128MB RAM
-* 32MB SVGA card completely DirextX 8.0 compatible
+By default, IPXWrapper will operate on all network interfaces in the system,
+which may not work correctly if you share more than one network with any other
+systems running IPXWrapper.
 
+To instead use a single network interface, change the "Primary interface" to
+the interface you want to use. Some software may also require you to select the
+interface in question inside it. Disabling all other interfaces may make this
+easier.
 
-Setup and Installation
+Using a DOSBox IPX server
+-------------------------
 
-To best prepare your system to run the game, please follow this procedure:
+You can choose to use a DOSBox IPX server to communicate with other hosts
+rather than exchanging packets directly, either to allow play over the Internet
+or communication between Windows and DOS games (running under DOSBox).
 
-1.	Run SCANDISK (Programs/Accessories) on your hard drive
-2.	Run DEFRAG (Programs/Accessories) on your hard drive
-3.	Run a quality virus scanner on your hard drive
-4.	Make sure that you have at least 240MB free on the hard drive that will contain the game files (the extra 75 MB is for your Windows swap file).
+To enable this, select the "DOSBox UDP encapsulation" option in ipxconfig and
+enter the address/port of your DOSBox server.
 
-To install Dragon Throne - Battle of Red Cliffs to your hard drive:
-1. Place the Dragon Throne - Battle of Red Cliffs CD in your CD-ROM drive. 
-2. After a few seconds, the Autorun Menu will come on screen.  Select the Install option.  If this menu does not appear, click the Start button, select Run and type D:\Autorun.EXE (where D is the letter of  CD-ROM drive), and then click OK.
-3. The program will ask you whether you need to install DirextX 8.0 which allow Dragon Throne - Battle of Red Cliffs to run properly under all configurations.  Your current drivers may need to be updated as necessary. If you are unsure if you need to install DirextX 8.0 then install it as it will not install anything if your current drivers are up to date.
-4. Dragon Throne - Battle of Red Cliffs installation routine will then install the game files to your hard drive.  At the end of the installation, you may be prompted to Restart your computer.
-5. Click the Play button on the Autorun Menu or select the Dragon Throne - Battle of Red Cliffs shortcut in the Object Software\ Battle of Red Cliffs \ folder in the Start Menu to begin the game.
+**NOTE**: SPX connections are not supported when using this option.
 
+Using the real IPX protocol
+---------------------------
 
-Uninstalling Dragon Throne - Battle of Red Cliffs
+If your software needs to send/receive real IPX frames, for example because it
+talks to an old piece of equipment that only understands IPX, install WinPcap
+and select the "Real IPX encapsulation" option in ipxconfig.
 
-You should use the Dragon Throne - Battle of Red Cliffs uninstall program, which can be found in the Start Menu>Object Software> Battle of Red Cliffs. 
- Select the Start Menu, Program Files, Object software and Battle of Red Cliffs This makes sure that all Windows associated fields are removed.
+**NOTE**: SPX connections are not supported when using this option.
 
+Compatibility
+-------------
 
+Software that uses WinSock 1.x and/or DirectPlay (before version 8) is supported.
 
+The following have been reported to work:
 
+ * Atomic Bomberman
+ * Call to Power II
+ * Carmageddon
+ * Carmageddon II
+ * Command & Conquer: Red Alert 2
+ * Darkstone: Evil Reigns
+ * Delta Force 2
+ * Diablo
+ * FIFA: Road to World Cup 98
+ * Hardwar: The Future Is Greedy
+ * Heroes of Might and Magic III
+ * Laser Arena
+ * Machines: Wired for War
+ * Need For Speed III - Hot Pursuit
+ * Outlive
+ * Rising Lands
+ * Rival Realms
+ * Sid Meier's Alpha Centauri
+ * Star Wars Episode I: Racer
+ * Star Wars Jedi Knight: Dark Forces II
+ * Street Wars: Constructor Underworld/Mob Rule
+ * Theme Hospital
+ * Total Annihilation
+ * Twisted Metal 2
+ * Virtua Cop
+ * Warcraft II
+ * War Wind
+ * War Wind II: Human Onslaught
+
+License
+-------
+
+Copyright (C) 2008-2025 Daniel Collins <solemnwarning@solemnwarning.net>
+Read license.txt for licensing terms.

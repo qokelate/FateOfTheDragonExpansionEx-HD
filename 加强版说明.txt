@@ -1,13 +1,19 @@
 
 《傲世三国之三分天下 威力加强版》
 
-0. 启动RegSetup.exe修复注册表
+0. 右键点击setup.cmd,选择管理员运行,修复注册表
 
 1. 启动adsanguo.exe是原版
 2. 启动adsanguoHD.exe是高清原版
 
 3. 启动adsanguo1.exe是修改版
 3. 启动adsanguoHD1.exe是高清修改版
+
+
+联机步骤:
+1. 启动adsanguo1.exe,点多人游戏,选IPX联机方式,修改玩家名,创建游戏,设置地图和电脑数量
+2. 启动adsanguoHD1.exe点多人游戏,选IPX联机方式,加入游戏
+3. 返回adsanguo1.exe开始游戏
 
 
 修改版改动的数据:

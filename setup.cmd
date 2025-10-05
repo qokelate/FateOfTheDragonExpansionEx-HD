@@ -2,6 +2,8 @@
 
 DISM /online /enable-feature /featurename:DirectPlay
 
-RegSetup.exe
+start /wait "" RegSetup.exe
+
+start /wait "" dplay-setup.exe
 
 exit

@@ -7,4 +7,3 @@ start /wait "" RegSetup.exe
 start /wait "" dplay-setup.exe
 
 exit
-
